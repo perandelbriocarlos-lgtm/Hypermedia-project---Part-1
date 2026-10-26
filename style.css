@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+#about-me,
+#experience,
+#formation,
+#abilities,
+#contact {
+    padding: 50px 140px;
+}
+
+body {
+    font-family: 'inter', 'sans-serif';
+}
+
+.header ul {
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+    margin: 0px 25px;
+}
+
+.portada {
+    padding: 120px 20px;
+    background: linear-gradient(to bottom,
+            #0F2A4A 0%,
+            #0F2A4A 49%,
+            #D6E6F2 100%);
+    text-align: center;
+}
+
+.about-me-text {
+    padding-left: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 90px;
+
+}
+
+.portada h2 {
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 20px;
+    font-size: 80px;
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me img {
+    width: 40%;
+}
+
+body {
+    color: #0F2A4A;
+}
+
+
+.light-blue-backgd {
+    background-color: #D6E6F2;
+}
+
+.light-blue-tag {
+    color: #D6E6F2;
+}
+
+.white-tag {
+    color: white;
+}
+
+p {
+    font-size: 30px;
+}
+
+
+.year {
+    font-size: 40px;
+    width: 130px;
+}
+
+.listElem {
+    display: grid;
+    grid-template-columns: 130px minmax(0, 1fr);
+    column-gap: 30px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+
+.listContent {
+    padding-top: 0px;
+    padding-left: 40px;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.skills-container {
+    background-color: #0F2A4A;
+    display: flex;
+    gap: 80px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 120px;
+
+}
+
+.skill-card {
+    flex: 1;
+    border-radius: 15px;
+
+}
+
+.technical-skills img {
+    height: 138px;
+    width: 138px;
+}
+
+
+#contact {
+    background: linear-gradient(165deg, #D6E6F2 35%, #0F2A4A 90%);
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
